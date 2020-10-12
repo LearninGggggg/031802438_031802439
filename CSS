@@ -1,0 +1,56 @@
+<style>
+        body {
+            font-size: 12px;
+        }
+
+        p,
+        div {
+            margin: 0;
+            padding: 0
+        }
+
+        .textarea {
+            width: 250px;
+            height: 80px;
+            position: absolute;
+            background: none;
+            z-index: 9
+        }
+
+        .note {
+            position: absolute;
+            line-height: 20px;
+            padding: 3px 5px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #00BFFF;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+        .button:hover {
+            background-color: #3e8e41
+        }
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        textarea {
+            border-radius: 10px;
+            background: transparent;
+            border: 2px solid #3e8e41;
+        }
+    </style>
